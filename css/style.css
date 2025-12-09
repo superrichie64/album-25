@@ -58,6 +58,11 @@ header {
     align-items: center;
     background-color: #111;
 }
+.links:hover {
+    transform: translateY(-10px);
+    background-color: #ffffff;
+    font-size: 20px;
+}
 /* Album Page */
 .album-1, .album-2  { 
     background-color: rgba(14, 1, 1, 0.543);
@@ -165,6 +170,11 @@ button {
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
+}
+button:hover {
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 /* Footer Page */
 .contact-info {
