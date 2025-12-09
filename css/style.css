@@ -1,0 +1,176 @@
+/* fonts I used*/
+@font-face {
+    font-family: Bauhaus 93;
+    src: url(../../../../../../WINDOWS/Fonts/BAUHS93.TTF);
+}
+@font-face {
+    font-family: Brush Script MT;
+    src: url(../../../../../../WINDOWS/Fonts/BRUSHSCI.TTF);
+}
+@font-face {
+    font-family: Broadway Regular;
+    src: (url(../../../../../../WINDOWS/Fonts/BROADW.TTF));
+}
+/* Home Page*/
+.richie-records { 
+    background-color: rgb(28, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+body {
+    font-family: "futura-pt", sans-serif;
+    background-image: url("../images/paper-junkie-Qgblv6riC_o-unsplash.jpg");
+    color: #fff;
+    }
+header {
+    background-color: rgb(171, 36, 115);
+    font-family: 'Bauhaus 93';
+    border-radius: 10px;
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+.hero {
+    background-image: url("../images/stephen-h-VMgL0FrUfsI-unsplash.jpg");
+    background-size: cover;
+    min-height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.hero-content {
+    color:#f4f2f3;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Broadway Regular';
+}
+.hero-content h2 {
+    font-family: 'Broadway Regular';
+    font-size: 45px;
+    font-weight: 300;
+}
+.links, .footer-links {
+    display: flex;
+    font-family: 'Bauhaus 93';
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111;
+}
+/* Album Page */
+.album-1, .album-2  { 
+    background-color: rgba(14, 1, 1, 0.543);
+    border-radius: 10px;
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    margin: 15px;
+    padding: 30px;
+    gap: 20px;
+}
+.album-description-1, .album-description-2 {
+    background: #211f1f;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+.album-1-image, .album-2-image {
+    height: 300px;
+}
+.NEON6IX {
+    font-family: 'Bauhaus 93';
+    font-size: 40px;
+}
+.Summer-Vibes {
+    font-family: 'Brush Script MT';
+    font-size: 40px;
+}
+/* Merch Page */
+.merch {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px
+}
+.merch-cover1, .merch-cover2, .merch-cover3, .merch-cover4 {
+    background-color: rgb(171, 36, 115);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+.merch-content1 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/mockup-01.png");
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+.merch-content2 {    
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/mockup-02.png");
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+.merch-content3 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/neon6ix-hoodie.png");
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+.merch-content4 {
+    width: 100%;
+    height: 250px;
+    background-image: url("../images/summer-vibes-tshirt.png");
+    background-size: cover;
+    min-height: 300px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+}
+.we-got-merch, .merch-selling {
+    font-family:'Broadway Regular';
+    font-size: 30px;
+    text-align: center;
+}
+button {
+  border: none;
+  color: rgb(19, 1, 1);
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+/* Footer Page */
+.contact-info {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    background: #111;
+    padding: 20px;
+    text-align: center;
+}
